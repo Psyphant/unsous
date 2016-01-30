@@ -1,0 +1,40 @@
+@import "imports/definitions.scss";
+@import "imports/timeline.scss";
+
+// App Style
+
+body {
+  font-family: 'Roboto';
+  background-image: url(../images/pattern.jpg);
+  margin: 0;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.15), #000000);
+  }
+}
+
+#unsous {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+  #header {
+    margin: 15px 68px 30px 0;
+    @media screen and (max-width:$width-small) {
+      margin: 0;
+    }
+  }
+
+  #content-wrapper {
+    margin: auto;
+
+    @media screen and (min-width:$width-small) {
+      max-width: 80%;
+    }
+  }
+}
