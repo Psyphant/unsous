@@ -49,7 +49,7 @@
     left: 50%;
     margin-left: -16px;
     margin-top: 8px;
-    border: 4px solid #FF6961;
+    border: 12px solid #cb0038;
     border-radius: 100%;
     background-color: white;
     text-align: center; }
@@ -62,8 +62,8 @@
       display: inline-block;
       width: 32px;
       height: 32px;
-      margin-left: -4px;
-      margin-top: -4px;
+      margin-left: -12px;
+      margin-top: -12px;
       vertical-align: bottom;
       line-height: 32px;
       text-align: center;
@@ -240,7 +240,7 @@ body {
   margin: 0; }
   body:before {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -261,3 +261,5 @@ body {
     @media screen and (min-width: 720px) {
       #unsous #content-wrapper {
         max-width: 80%; } }
+
+/*# sourceMappingURL=app.css.map */
