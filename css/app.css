@@ -256,6 +256,41 @@ body {
     @media screen and (max-width: 720px) {
       #unsous #header {
         margin: 0; } }
+    #unsous #header img {
+      width: 100%;
+      max-width: 320px; }
+  @media screen and (min-width: 450px) {
+    #unsous #navigation {
+      width: 80%;
+      margin: 100px auto 0;
+      perspective: 225px;
+      position: relative; }
+      #unsous #navigation .navigation-wrapper {
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        right: 0;
+        z-index: 1; }
+        #unsous #navigation .navigation-wrapper ul {
+          display: flex;
+          list-style: none;
+          padding: 0;
+          justify-content: center; }
+          #unsous #navigation .navigation-wrapper ul li {
+            background-color: gray;
+            height: 100px;
+            width: 100px;
+            margin: 10px; }
+      #unsous #navigation .top {
+        background-image: url(../images/wood-pattern-top.jpg);
+        height: 50px;
+        width: 98%;
+        transform: rotateX(10deg);
+        margin: auto; }
+      #unsous #navigation .bottom {
+        background-image: url(../images/wood-pattern-front.jpg);
+        box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.6);
+        height: 10px; } }
   #unsous #content-wrapper {
     margin: auto; }
     @media screen and (min-width: 720px) {
